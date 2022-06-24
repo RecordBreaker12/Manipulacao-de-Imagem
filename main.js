@@ -62,7 +62,7 @@ function delay(milliseconds){
 
 let load = async function (){
     original = image;
-    await delay(1300);
+    await delay(1000);
     context = canvas.getContext('2d');
     drawImage(canvas, context, image);
 }
